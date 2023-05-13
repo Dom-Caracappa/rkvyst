@@ -1,0 +1,26 @@
+* {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.container {
+    display: grid;
+    grid-template-columns: 20em auto;
+    grid-template-rows: 20em 10em 5em;
+}
+#box1 {
+    grid-column-start: 1;
+    grid-row-end: 2;
+    justify-self: center;
+}
+#mainLogo {
+    width: 20vw;
+}
+#box2 {
+    grid-column-start: 2;
+    justify-self: center;
+    align-self: center;
+}
+#headline {
+    font-size: 4vw;
+    font-family: 'Raleway', sans-serif;
+}
